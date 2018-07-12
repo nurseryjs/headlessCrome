@@ -1,0 +1,27 @@
+{
+  "name": "headlesscrome",
+  "version": "0.0.1",
+  "description": "Окружение для изучения headless chrome",
+  "main": "index.js",
+  "scripts": {
+	"start": "NODE_PATH=. node ./start.js",
+	"mocha": "mocha $1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurseryjs/headlessCrome.git"
+  },
+  "author": "Eddort",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurseryjs/headlessCrome/issues"
+  },
+  "homepage": "https://github.com/nurseryjs/headlessCrome#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "commander": "^2.16.0",
+    "dotenv": "^6.0.0",
+    "mocha": "^5.2.0",
+    "puppeteer": "^1.5.0"
+  }
+}
